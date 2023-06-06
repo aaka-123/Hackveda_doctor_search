@@ -1,0 +1,348 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.finding-a-doctor {
+  position: absolute;
+  top: 366px;
+  left: 87px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 463px;
+  height: 120px;
+}
+.doc-icon {
+  position: absolute;
+  top: 182px;
+  left: 1016px;
+  width: 454px;
+  height: 428px;
+  object-fit: cover;
+}
+.home-page-child {
+  position: absolute;
+  top: 589px;
+  left: 53px;
+  background-color: var(--color-lavender);
+  width: 284px;
+  height: 43px;
+}
+.select-category {
+  border: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: absolute;
+  top: 595px;
+  left: 87px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 187px;
+}
+.home-page-item {
+  position: absolute;
+  top: 589px;
+  left: 373px;
+  background-color: var(--color-aliceblue-200);
+  width: 243px;
+  height: 43px;
+}
+.select-location {
+  border: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: absolute;
+  top: 595px;
+  left: 400px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 189px;
+  height: 21px;
+}
+.home-page-inner {
+  position: absolute;
+  top: 589px;
+  left: 704px;
+  background-color: var(--color-darkslateblue);
+  width: 161px;
+  height: 43px;
+}
+.search {
+  position: absolute;
+  top: 595px;
+  left: 766px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 140px;
+}
+.search:hover {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.image-3-icon {
+  position: absolute;
+  top: 809px;
+  left: 118px;
+  width: 86px;
+  height: 71px;
+  object-fit: cover;
+}
+.easy-steps-to {
+  position: absolute;
+  top: 695px;
+  left: 430px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #111;
+}
+.image-4-icon,
+.image-6-icon,
+.image-7-icon {
+  position: absolute;
+  top: 815px;
+  left: 418px;
+  width: 71px;
+  height: 71px;
+  object-fit: cover;
+}
+.image-6-icon,
+.image-7-icon {
+  top: 809px;
+  left: 705px;
+  width: 81px;
+  height: 77px;
+}
+.home-page-child1:hover,
+.image-6-icon:hover {
+  animation: 1s ease 0s infinite normal none scale-up;
+  opacity: 1;
+}
+.image-7-icon {
+  top: 812px;
+  left: 1016px;
+  width: 61px;
+  height: 74px;
+}
+.how-well-does {
+  position: absolute;
+  top: 937px;
+  left: 41px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 240px;
+  height: 61px;
+}
+.how-well-does1,
+.how-well-does2 {
+  top: 945px;
+  font-size: var(--font-size-base);
+}
+.how-well-does1 {
+  position: absolute;
+  left: 370px;
+  display: inline-block;
+  width: 231px;
+}
+.how-well-does2 {
+  left: 958px;
+  width: 238px;
+}
+.how-well-does2,
+.how-well-does3,
+.search-doctor {
+  position: absolute;
+  display: inline-block;
+}
+.how-well-does3 {
+  top: 949px;
+  left: 664px;
+  font-size: var(--font-size-base);
+  width: 242px;
+}
+.search-doctor {
+  top: 902px;
+  left: 96px;
+  width: 161px;
+  height: 20px;
+}
+.check-doctor-profile,
+.doctor-serial,
+.get-your-solution {
+  position: absolute;
+  top: 902px;
+  left: 337px;
+  display: inline-block;
+  width: 248px;
+  height: 18px;
+}
+.doctor-serial,
+.get-your-solution {
+  left: 691px;
+  width: 160px;
+  height: 16px;
+}
+.get-your-solution {
+  left: 999px;
+  width: 199px;
+  height: 20px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 870px;
+  left: 1811px;
+  width: 181px;
+  height: 32px;
+}
+.learn-more-,
+.learn-more-1,
+.learn-more-2,
+.learn-more-3 {
+  position: absolute;
+  top: 1034px;
+  left: 92px;
+  font-size: var(--font-size-xl);
+}
+.learn-more-1,
+.learn-more-2,
+.learn-more-3 {
+  top: 1032px;
+  left: 408px;
+}
+.learn-more-2,
+.learn-more-3 {
+  top: 1038px;
+  left: 718px;
+}
+.learn-more-3 {
+  left: 1087px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 1119px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1490px;
+  height: 394px;
+}
+.discovering-a-doctor,
+.how-well-does4 {
+  position: absolute;
+  left: 41px;
+  display: inline-block;
+}
+.discovering-a-doctor {
+  top: 1150px;
+  width: 390px;
+  height: 86px;
+  -webkit-text-stroke: 1px #000;
+}
+.how-well-does4 {
+  top: 1253px;
+  font-size: var(--font-size-xl);
+  width: 420px;
+  height: 26px;
+}
+.home-page-child1 {
+  position: absolute;
+  top: 1409px;
+  left: 106px;
+  width: 196px;
+  height: 64px;
+}
+.see-specialities- {
+  position: absolute;
+  top: 1431px;
+  left: 126px;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  display: inline-block;
+  width: 192px;
+  height: 21px;
+}
+.image-8-icon,
+.image-9-icon {
+  position: absolute;
+  top: 1119px;
+  left: 870px;
+  width: 620px;
+  height: 382px;
+  object-fit: cover;
+}
+.image-9-icon {
+  top: 597px;
+  left: 713px;
+  width: 29px;
+  height: 27px;
+}
+.suitable-doctor {
+  color: var(--color-mediumblue);
+}
+.find-and-search-container {
+  top: 187px;
+  left: 80px;
+  font-size: var(--font-size-29xl);
+  display: inline-block;
+  width: 502px;
+}
+.about,
+.doctorapp,
+.find-and-search-container,
+.home,
+.services {
+  position: absolute;
+  -webkit-text-stroke: 1px #000;
+}
+.doctorapp {
+  top: 44px;
+  left: 53px;
+  font-size: var(--font-size-29xl);
+  color: var(--color-dodgerblue);
+  display: inline-block;
+  width: 249px;
+  height: 64px;
+}
+.about,
+.home,
+.services {
+  top: 50px;
+  left: 442px;
+  font-size: var(--font-size-17xl);
+}
+.about,
+.services {
+  left: 671px;
+}
+.services {
+  left: 870px;
+}
+.home-page-child2 {
+  position: absolute;
+  top: 44px;
+  left: 1157px;
+  background-color: var(--color-dodgerblue);
+  width: 249px;
+  height: 64px;
+}
+.contact-us {
+  position: absolute;
+  top: 59px;
+  left: 1180px;
+  font-size: var(--font-size-17xl);
+  -webkit-text-stroke: 1px #000;
+}
+.home-page {
+  position: relative;
+  background-color: var(--color-aliceblue-100);
+  width: 100%;
+  height: 1502px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
