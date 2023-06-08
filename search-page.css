@@ -74,7 +74,7 @@
   width: 161px;
   height: 43px;
 }
-.search1 {
+.search2 {
   position: absolute;
   top: 595px;
   left: 766px;
@@ -82,7 +82,7 @@
   display: inline-block;
   width: 140px;
 }
-.search1:hover {
+.search2:hover {
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .image-3-icon1 {
@@ -190,7 +190,7 @@
   width: 199px;
   height: 20px;
 }
-.search-page-child1 {
+.rectangle-icon {
   position: absolute;
   top: 870px;
   left: 1811px;
@@ -220,7 +220,7 @@
 .learn-more-7 {
   left: 1087px;
 }
-.image-9-icon1 {
+.image-9-icon {
   position: absolute;
   top: 597px;
   left: 713px;
@@ -269,7 +269,7 @@
 .services1 {
   left: 870px;
 }
-.search-page-child2 {
+.rectangle-div {
   position: absolute;
   top: 44px;
   left: 1157px;
@@ -277,7 +277,7 @@
   width: 249px;
   height: 64px;
 }
-.contact-us1 {
+.contact-us2 {
   position: absolute;
   top: 59px;
   left: 1180px;

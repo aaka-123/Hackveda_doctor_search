@@ -6,12 +6,13 @@ body {
 :root {
   /* fonts */
   --font-inter: Inter;
+  --font-goldman: Goldman;
 
   /* font sizes */
   --font-size-17xl: 36px;
   --font-size-29xl: 48px;
-  --font-size-xl: 20px;
   --font-size-5xl: 24px;
+  --font-size-xl: 20px;
   --font-size-base: 16px;
   --font-size-14xl-2: 33.2px;
 
@@ -20,8 +21,8 @@ body {
   --color-aliceblue-200: #d4eefd;
   --color-black: #000;
   --color-dodgerblue: #4374d6;
-  --color-mediumblue: #1e3de3;
   --color-white: #fff;
-  --color-darkslateblue: #153e90;
   --color-lavender: #cfebfd;
+  --color-mediumblue: #1e3de3;
+  --color-darkslateblue: #153e90;
 }
