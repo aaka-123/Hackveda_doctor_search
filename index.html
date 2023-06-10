@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
     />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Goldman:wght@400&display=swap"
@@ -83,12 +84,14 @@
           your health.
         </div>
         <input
+        id="doc_type"
           class="select-category"
           type="text"
           placeholder="Search your Doctor"
         />
 
         <input
+        id="area"
           class="select-location"
           type="text"
           placeholder="Search Location"
@@ -110,7 +113,7 @@
         >
         <a
           class="about"
-          href="https://siltiest-halyard.000webhostapp.com/index.html"
+          href="https://siltiest-halyard.000webhostapp.cserom/index.html"
           >About</a
         >
         <a
@@ -120,5 +123,21 @@
         >
       </div>
     </div>
+    
+      <script>
+      $(document).ready(function(){
+         
+         $(".srch-icon").click(function(){
+             var doctor_type=$("#doc_type").val();
+               var doctor_area=$("#area").val();
+               
+               $.post("webservice1.php", {search: doctor_type, area:doctor_area},function(response){
+                  $(".info-div-parent").html(response); // clear existing search results
+             
+               });
+         });
+     });
+     
+ </script> 
   </body>
 </html>
